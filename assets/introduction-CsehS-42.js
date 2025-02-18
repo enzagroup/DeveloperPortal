@@ -1,0 +1,3 @@
+import{S as o,j as n}from"./entry.client-CDQ7qtkl.js";const r="Portal to use Enza API's",c=[{depth:2,value:"Veneka API's",id:"veneka-apis"}],i={title:"Enza API Portal"};function s(t){const e={h2:"h2",p:"p",...o(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(e.h2,{id:"veneka-apis",children:"Veneka API's"}),`
+`,n.jsx(e.p,{children:"Portal to use Enza API's"})]})}function l(t={}){const{wrapper:e}={...o(),...t.components};return e?n.jsx(e,{...t,children:n.jsx(s,{...t})}):s(t)}export{l as default,r as excerpt,i as frontmatter,c as tableOfContents};
+//# sourceMappingURL=introduction-CsehS-42.js.map
