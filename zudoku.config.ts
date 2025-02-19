@@ -6,6 +6,9 @@ const config: ZudokuConfig = {
     { id: "docs", label: "Documentation" },
     { id: "api", label: "API Reference" },
   ],
+  build:{
+  
+  },
   sidebar: {
     docs: [
       {
