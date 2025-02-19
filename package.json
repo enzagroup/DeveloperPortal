@@ -6,9 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "zudoku dev",
-    "build": "zudoku build",
+    "build": "npm run build",
     "lint": "eslint",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
