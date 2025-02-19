@@ -35,6 +35,13 @@ const config: ZudokuConfig = {
       width: "127px"
     }
   },
+  metadata: {
+    title: "Enza Developer Portal",
+    description: "Developer Portal for Enza partners.",
+    logo: "/logos/enza-logo-dark.svg",
+    favicon: "/logos/enza-logo-dark.svg",
+    applicationName: "Example App",
+  },
   theme: {
     light: {
       background: "#ffffff", // White background
