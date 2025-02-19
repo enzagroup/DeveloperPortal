@@ -261,8 +261,8 @@ paths:
         '400':
           description: Bad request, invalid data format or missing parameters.
 
-/accounts/issuing:
-  post:
+  /accounts/issuing:
+   post:
     summary: Create New Issuing Contract
     description: Creates a new issuing contract associated with an account.
     operationId: createIssuingContract
