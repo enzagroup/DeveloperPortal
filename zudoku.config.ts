@@ -19,10 +19,14 @@ const config: ZudokuConfig = {
     ],
   },
   redirects: [{ from: "/", to: "/docs/introduction" }],
+  // apis: {
+  //   type: "url",
+  //   input: "https://gist.githubusercontent.com/enzagroup/d78f891185d143bba192b4b7804a1ff4/raw/5bd4b60944f60f1125410730c70fc25d952d8a28/Enza-REST-API-UAT-oas30.yaml",
+  //   navigationId: "api",
+  // },
   apis: {
-    type: "url",
-    input: "https://gist.githubusercontent.com/enzagroup/d78f891185d143bba192b4b7804a1ff4/raw/5bd4b60944f60f1125410730c70fc25d952d8a28/Enza-REST-API-UAT-oas30.yaml",
-    // input: "./apis/openapi.yaml",
+    type: "file",
+    input: "./apis/openapi.yaml",
     navigationId: "api",
   },
   docs: {

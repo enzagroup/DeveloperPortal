@@ -1,5 +1,6 @@
 {
   "name": "enza-api",
+  "homepage": "https://github.com/enzagroup/DeveloperPortal",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -7,6 +8,7 @@
     "dev": "zudoku dev",
     "build": "zudoku build",
     "lint": "eslint",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
